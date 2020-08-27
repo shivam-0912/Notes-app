@@ -1,0 +1,117 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    font-family: Arvo, serif;
+    background:url("image.jpg") center center ;
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+    
+    background-attachment: fixed;
+    
+}
+.navbar{
+    background-color:#74B3D4 ;
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: rgba(255,255,255,0.5);
+}
+.navbar-toggle{
+    border:1px solid rgba(255, 255, 255,0.5);
+}
+.navbar-toggle:hover{
+    border:1px solid rgba(255, 255, 255,0.5);
+    background-color: rgba(255, 255, 255,0.6)
+}
+.icon-bar{
+    background-color: rgba(255, 255, 255,0.5);
+}
+.navbar-collapse a{
+    color: white;
+    border-right:1px solid #499CC7 ;
+}
+
+#home{
+    border-left:1px solid #499CC7 ;
+}
+.navbar-right{
+    padding-right:8px ;
+}
+#homelogin ,#loggedin{
+    border-right:none ;
+    border-left:1px solid #499CC7 ;
+}
+.nav li a:hover{
+    background-color:#74B3D4 ;
+    color: rgba(255,255,255,0.5);
+    
+}
+.jumbotron{
+    background:none;
+    
+}
+#jumbotron{
+    text-align: center;
+    padding-top:110px ;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,0.7);
+    
+}
+
+.green{
+    background-color:  rgba(122,201,56,0.8);
+}
+.green:hover{
+    background-color: rgba(122,201,56,1);
+}
+.footer{
+    background-color:#74B3D4  ;
+    position: absolute;
+    
+    bottom: 0;
+    height:35px;
+    text-align: center;
+    line-height:40px;
+    width: 100%;
+}
+.signup #sign_up,.login #log_in, #sumbit{
+    background-color:  rgba(122,201,56,1);
+}
+.signup #sign_up:hover,.login #log_in:hover, #sumbit:hover{
+    background-color:  rgba(122,180,56,1);
+}
+.cancel,.login #register,.forgotpswd #register{
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.cancel:hover,.login #register:hover,.forgotpswd #register:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+/*//////////////////////////////////Styling mainpage//////////////////////*/
+.row{
+    margin-top: 200px;
+}
+.rowbtns #addnote,.rowbtns #allnotes,.rowbtns #edit{
+    background-color: #74B3D4 ;
+    color: #fff;
+}
+.rowbtns #addnote:hover,.rowbtns #allnotes:hover,.rowbtns #edit:hover{
+    background-color: rgb(116, 179, 240) ;
+    color: #fff;
+}
+.rowbtns #done{
+    background-color:  rgba(122,201,56,1);
+    color: black;
+}
+.rowbtns #done:hover{
+    background-color:  rgba(122,160,56,1);
+    color: black;
+}
